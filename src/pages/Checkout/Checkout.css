@@ -1,0 +1,98 @@
+.main-checkout-section {
+  flex-grow: 1;
+  margin: 0 auto;
+  margin-top: 6rem;
+  width: 100%;
+}
+
+.order-section {
+  box-shadow: 0 0 4px 0px var(--dark-gray-color);
+  height: fit-content;
+  min-width: 45%;
+  max-width: 45%;
+}
+
+.address-section {
+  box-shadow: 0 0 4px 0px var(--dark-gray-color);
+  height: fit-content;
+  max-width: 30%;
+  min-width: 30%;
+}
+.order-col {
+  padding: 1rem;
+}
+
+.order-col h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+.order-content,
+.price-content {
+  gap: 10px;
+}
+
+.order-heading {
+  margin-bottom: 1rem;
+}
+
+.addressCheckbox-item {
+  padding-top: 0;
+}
+
+.addressCheckbox-item p {
+  padding-top: 0.3rem;
+}
+
+.order-button {
+  align-self: center;
+  margin-bottom: 1rem;
+  width: 15rem;
+  height: 3rem;
+}
+.address-label {
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main-checkout-section {
+    margin-top: 9rem;
+  }
+  .order-content,
+  .price-content {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .order-button {
+    width: 10rem;
+    height: 2rem;
+  }
+  .add-address-btn {
+    width: inherit;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .checkout-div {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .address-section {
+    max-width: 80%;
+    min-width: 80%;
+    margin: 0 auto;
+  }
+  .order-section {
+    min-width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .checkout-div {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
