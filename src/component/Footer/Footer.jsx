@@ -51,11 +51,11 @@ export const Footer = () => {
           <div className="dp_row dp_rowdir_clmn contact-details">
             <span>
               <i className="fa-solid fa-location-dot fa-icon"></i>
-              <span className="ml-0-5">1111 Central Lounge, New delhi</span>
+              <span className="ml-0-5">Dadar East, Mumbai</span>
             </span>
             <span>
               <i className="fa-solid fa-phone fa-icon"></i>
-              <span className="ml-0-5">+91 9099203274</span>
+              <span className="ml-0-5">+91 9322766373</span>
             </span>
             <span>
               <i className="fa-solid fa-envelope fa-icon"></i>
