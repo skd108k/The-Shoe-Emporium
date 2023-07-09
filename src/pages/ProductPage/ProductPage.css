@@ -1,0 +1,131 @@
+.main-products-section {
+  /* display: flex; */
+  margin-top: 2.5rem;
+}
+
+.products-section {
+  flex-grow: 1;
+  overflow: auto;
+  padding: 1rem 1rem;
+}
+
+.product-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.liked {
+  transform: scale(1.1);
+  color: var(--red-color);
+  opacity: 1;
+}
+
+/* ---------------------------------Start Card Stylings-----------------------------------  */
+
+.card-rating {
+  background-color: var(--yellow-color);
+  color: #fff;
+  padding: 5px 7px;
+  border-radius: 10px;
+  font-size: 10px;
+
+  gap: 2px;
+  font-weight: bold;
+}
+
+.no-product {
+  height: 100%;
+}
+.filter-btn {
+  display: none;
+}
+
+/* ---------------------------------End Card Stylings-----------------------------------  */
+
+@media screen and (max-width: 1065px) {
+  .product-list-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  .card-head .image-badge-div .product-image {
+    height: 15rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .products-section {
+    padding: 5rem 1rem;
+  }
+  .product-list-grid {
+    gap: 0.5rem;
+  }
+}
+@media screen and (max-width: 817px) {
+  .products-section {
+    padding: 5rem 1rem;
+  }
+  .product-list-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .ecomm-card {
+    min-width: 14rem;
+    max-width: 14rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .filter-btn {
+    display: block;
+    background-color: var(--dark-blue-color);
+    color: #fff;
+    margin: 1rem 0;
+  }
+}
+@media screen and (max-width: 780px) {
+  .card {
+    min-width: 99%;
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .product-list-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2rem 0 0;
+  }
+  .card-head {
+    padding: 0.2rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .ecomm-card {
+    max-width: 10rem;
+    min-width: 10rem;
+  }
+  .card-head {
+    padding: 0.2rem;
+  }
+  .card-head .image-badge-div .product-image {
+    height: 13rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .products-section {
+    padding: 5rem 2rem;
+  }
+  .product-list-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 2rem 0 0;
+  }
+  .ecomm-card {
+    max-width: 10rem;
+    min-width: 10rem;
+  }
+  h3.product-heading {
+    font-size: 0.8rem;
+  }
+  /* .card-head .image-badge-div .product-image {
+    height: 15rem;
+  } */
+}
