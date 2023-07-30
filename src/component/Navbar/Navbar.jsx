@@ -26,7 +26,7 @@ export const Navbar = () => {
                     src={navbarLogo}
                     alt="HeaderLogo"
                   />
-                  <small className="nav_btn">Shoes-Store</small>
+                  <small className="nav_btn">The-Shoe-Emporium</small>
                 </Link>
               </div>
             </div>
