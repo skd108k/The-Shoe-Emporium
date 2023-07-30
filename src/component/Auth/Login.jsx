@@ -12,8 +12,8 @@ export const Login = () => {
   const [loginCred, setLoginCred] = useState({ email: "", password: "" });
 
   const guestLoginCred = {
-    email: "nikhil@gmail.com",
-    password: "nikhil@1995",
+    email: "shailesh@gmail.com",
+    password: "shailesh@123",
   };
 
   const { showPass, togglePassword } = useShowPassword();
