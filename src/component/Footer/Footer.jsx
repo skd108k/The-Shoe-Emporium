@@ -6,7 +6,7 @@ export const Footer = () => {
       <footer className="dp_row dp_rowdir_clmn_onlyMob text-alignMob justify-contentspaceAround footer">
         <div className="dp_row dp_rowdir_clmn footer-item">
           <div className="footer-copy fw-bold">
-            Copyright © 2023 SHOES-STORE.
+            Copyright © 2023 The-Shoe-Emporium.
           </div>
           <div>All Rights Reserved</div>
           <div className="dp_row justifycenter footer-icons fs-1-25">
@@ -59,7 +59,7 @@ export const Footer = () => {
             </span>
             <span>
               <i className="fa-solid fa-envelope fa-icon"></i>
-              <span className="ml-0-5">support@shoesstore.com</span>
+              <span className="ml-0-5">support@theshoeemporium.com</span>
             </span>
           </div>
         </div>
