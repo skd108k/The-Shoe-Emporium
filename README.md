@@ -10,7 +10,7 @@ https://github.com/deshwaninikil/shoes-store/assets/79966144/db4c2d31-d787-4f19-
 ## How to install and run locally ?
 
 ```
-$ git clone https://github.com/deshwaninikil/shoes-store.git
+$ git clone https://github.com/skd108k/The-Shoe-Emporium.git
 $ cd  shoes-store
 $ npm install
 $ npm start
