@@ -1,4 +1,4 @@
-# Shoes-Store
+# The-Shoe-Emporium
 
 You will find the world’s great shoes here, it is an e-commerce site with wide variety of shoes.
 
